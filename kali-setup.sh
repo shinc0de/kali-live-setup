@@ -1,10 +1,8 @@
 #!/bin/sh
+
 # set keyboard layout
 setxkbmap de &&
-
-# use this command to get the settings for your 
-# monitor resolution 
-# cvt 2560 1440
+gsettings set org.gnome.desktop.sound event-sounds false &&
 
 # set custom resolution
 xrandr --newmode "2560x1440_60.00"  312.25  2560 2752 3024 3488  1440 1443 1448 1493 -hsync +vsync &&
