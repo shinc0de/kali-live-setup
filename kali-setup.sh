@@ -1,4 +1,7 @@
 #!/bin/sh
+cp ~/kali-live-setup/bash_aliases ~/.bash_aliases
+cp ~/kali-live-setup/vimrc ~/.vimrc
+source ~/.bashrc
 
 # set keyboard layout
 setxkbmap de &&
